@@ -1,0 +1,15 @@
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\bin\Debug\net8.0\ReserveStudyClass.exe
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\bin\Debug\net8.0\ReserveStudyClass.deps.json
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\bin\Debug\net8.0\ReserveStudyClass.runtimeconfig.json
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\bin\Debug\net8.0\ReserveStudyClass.dll
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\bin\Debug\net8.0\ReserveStudyClass.pdb
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\obj\Debug\net8.0\ReserveStudyClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\obj\Debug\net8.0\ReserveStudyClass.AssemblyInfoInputs.cache
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\obj\Debug\net8.0\ReserveStudyClass.AssemblyInfo.cs
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\obj\Debug\net8.0\ReserveStudyClass.csproj.CoreCompileInputs.cache
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\obj\Debug\net8.0\ReserveStudyClass.sourcelink.json
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\obj\Debug\net8.0\ReserveStudyClass.dll
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\obj\Debug\net8.0\refint\ReserveStudyClass.dll
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\obj\Debug\net8.0\ReserveStudyClass.pdb
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\obj\Debug\net8.0\ReserveStudyClass.genruntimeconfig.cache
+C:\Users\paulo\OneDrive\Documents\GitHub\StudyClassReserve\ReserveStudyClass\obj\Debug\net8.0\ref\ReserveStudyClass.dll

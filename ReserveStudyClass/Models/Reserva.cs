@@ -1,39 +1,40 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace StudyClassReserve.ReserveStudyClass
 {
-    public class Reserva
+    public class Reservas
     {
         //propriedades
-        public DateTime Data { get; set; }
-        public TimeSpan Hora { get; set; }
+        public DateTime DataReserva { get; set; }
+        public TimeSpan HoraReserva { get; set; }
         public string DescricaoDaSala { get; set; }
         public int Capacidade { get; set; }
 
         private ConfiguracaoReserva configuracao;
 
         //construtor
-        public Reserva(DateTime data, TimeSpan hora, string descricaoDaSala, int capacidade, ConfiguracaoReserva configuracaoReserva)
+        public Reservas(DateTime dataReserva, TimeSpan horaReserva, string descricaoDaSala, int capacidade, ConfiguracaoReserva configuracaoReserva)
         {
             this.configuracao = configuracaoReserva;
 
-            RegistrarData(data);
-            RegistrarHora(hora);
+            RegistrarData(dataReserva);
+            RegistrarHora(horaReserva);
             RegistrarCapacidade(capacidade);
 
             DescricaoDaSala = descricaoDaSala ?? throw new ArgumentNullException(nameof(descricaoDaSala));
         }
 
         //métodos para registrar separadamente
-        public void RegistrarHora(TimeSpan hora)
+        public void RegistrarHora(TimeSpan horaReserva)
         {
-            Hora = hora;
+            HoraReserva = horaReserva;
         }
-        public void RegistrarData(DateTime data)
+        public void RegistrarData(DateTime dataReserva)
         {
-            Data = data;
+            DataReserva = dataReserva;
         }
         public void RegistrarCapacidade(int capacidade)
         {
@@ -50,12 +51,12 @@ namespace StudyClassReserve.ReserveStudyClass
         {
             List<string> erros = new List<string>();
 
-            if(Data < configuracao.DataMin || Data > configuracao.DataMax)
+            if(DataReserva < configuracao.DataMin || DataReserva > configuracao.DataMax)
             {
                 erros.Add("A data da reserva está fora do horário permitido.");
             }
 
-            if(Hora < configuracao.HoraMin || Hora > configuracao.HoraMax)
+            if(HoraReserva < configuracao.HoraMin || HoraReserva > configuracao.HoraMax)
             {
                 erros.Add("A hora da reserva está fora do horário permitido.");
             }
@@ -76,7 +77,7 @@ namespace StudyClassReserve.ReserveStudyClass
         //método toostring para exibição amigável dos dados
         public override string ToString()
         {
-            return $"Reserva para a sala \"{DescricaoDaSala}\" em {Data:dd/MM/yyyy} ás {Hora}h  com capacaidade para {Capacidade} alunos.";
+            return $"Reserva para a sala \"{DescricaoDaSala}\" em {DataReserva:dd/MM/yyyy} ás {HoraReserva}h  com capacaidade para {Capacidade} alunos.";
         }
     }
 }
